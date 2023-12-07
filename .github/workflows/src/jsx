@@ -1,0 +1,16 @@
+import React from "react";
+import "./Article.css"; // You can create a separate CSS file for styling
+
+function Article() {
+  return (
+    <div className="article-container">
+      <p className="greeting">Hey there! 🌟</p>
+      <p>
+        Check this out: Bjarne Stroustrup has the perfect lecture oration.
+      </p>
+    </div>
+  );
+}
+
+export default Article;
+
